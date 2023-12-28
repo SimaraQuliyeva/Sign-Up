@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+    font-family: Poppins;
+ }
+
+body{
+     background-color: #4b5563;
+ }
+ .main{
+     width: 50%;
+     height: auto;
+     background-color: #1f2937;
+     border: 1px solid #FFF;
+     margin: 40px auto;
+     text-align: center;
+     border-radius: 12px;
+ }
+ .arrow{
+     width: 50px;
+     height: 50px;
+     margin: 15px;
+     font-size: 20px;
+     color: white;
+ }
+ .arrow:hover{
+     color:#22c55e;
+ }
+ .signup{
+     color:  #FFF;
+     font-size: 20px;
+     /*text-align: center;*/
+     margin: 20px;
+     font-weight:900;
+ }
+
+ .nav{
+     color: white;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     position: relative;
+     width: 90%;
+     margin: 0 auto;
+ }
+ .solid{
+     width: 100%;
+     height: 10px;
+     /*top: 10px;*/
+     background-color: #FFF;
+     color: black;
+     position: absolute;
+     z-index: 0;
+     border-radius: 14px;
+ }
+ .solid div{
+     width: 0;
+     height: 100%;
+     background-color: #22c55e;
+     border-radius: 14px;
+ }
+ .nav .icon{
+     /*text-align: center;*/
+     z-index: 1;
+     /*width: 15%;*/
+     background-color: #FFF;
+     color: #1f2937;
+     border-radius: 50%;
+     padding: 4px 10px;
+     font-size: 24px;
+     border: 4px solid #1f2937;
+ }
+ p{
+     color: #fff;
+     margin: 8px;
+     font-size: 20px;
+     font-weight: bold;
+ }
+
+ h2{
+     color: grey;
+     font-size: 15px;
+ }
+ .username{
+     width: 85%;
+     color: #fff;
+     margin: 10px auto;
+     font-size: 18px;
+     text-align: left;
+
+ }
+
+form input{
+     background-color:#4b5563;
+     color: #FFF;
+     font-size: 16px;
+     border: 1px solid transparent;
+     border-radius: 6px;
+     padding: 10px;
+
+ }
+form>input{
+    width: 90%;
+    margin: 10px auto;
+}
+
+ .input2{
+     width: 90%;
+     display: flex;
+     justify-content: space-between;
+     margin: 5px auto;
+ }
+ .input2 input{
+     width: 49%;
+ }
+ input:focus{
+     outline: none;
+     border: 2px solid #22c55e;
+ }
+.btn{
+    display: flex;
+    margin: 40px 5%;
+
+}
+ button{
+     width: 100px;
+     height: 50px;
+     border-radius: 10px;
+     border: 1px solid transparent;
+     color:#FFF;
+     background-color: #22c55e;
+     user-select: none;
+     justify-content: flex-end;
+     cursor: pointer;
+ }
+
+ button:hover{
+     color: #22c55e;    
+     background-color: #FFF;
+ }
+.btn2{
+   margin: 40px 5%;
+}
+
+
